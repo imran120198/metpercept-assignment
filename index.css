@@ -1,0 +1,121 @@
+.navbar{
+    height: 70px;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    margin: 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.logo{
+    font-size: 26px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.category{
+    width: 30%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 20px;
+}
+
+.category > div{
+    font-size: 26px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.button{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border-color: blue;
+    color: blue;
+    background-color: white;
+    font-size: 20px;
+    margin: auto;
+    margin-top: -10px;
+}
+
+.titlesection{
+    height: 400px;
+    width: 100%;
+    margin-top: 30px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    height: 80px;
+    width: 300px;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+.title_desc{
+    height: 120px;
+    width: 820px;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+}
+
+.title_button{
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.title_button > button{
+    margin: auto;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    border-color: white;
+}
+
+.class_section{
+    margin-top: 100px;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.class_title{
+    text-align: center;
+    font-size: 60px;
+}
+
+.class_desc{
+    text-align: center;
+    font-size: 30px;
+    margin-top: -20px;
+}
+
+#main{
+    width: 85%;
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: gray;
+    margin: 0px 20px 0px 20px;
+}
